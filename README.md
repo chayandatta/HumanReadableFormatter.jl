@@ -1,12 +1,11 @@
-# Readable.jl
+# Layman.jl
 
-Just a few functions for helping sizes readable.
-This library turns datasizes into a abbreviated human-friendly form.
+A handful of straightforward functions to make data sizes clear for the layman. This library converts data sizes into a simple, human-friendly format for easy understanding.
 
 examples:
 
 ```julia
-julia> using Readable
+julia> using Layman
 julia> datasize(1000, format=:decimal)
 "1.0k"
 julia> datasize(1024)
