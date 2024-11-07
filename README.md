@@ -22,16 +22,16 @@ The package provides functions that convert data sizes (in bytes) into human-rea
 julia> using HumanReadableFormatter
 
 julia> datasize(1000, format=:decimal)
-"1.0k"
+"1k"
 
 julia> datasize(1024)
-"1.0KB"
+"1KB"
 
 julia> datasize(1024, format=:jdec)
-"1.0KB"
+"1KB"
 
 julia> datasize(1024, format=:binary)
-"1.0KiB"
+"1KiB"
 ```
 
 *`datasize` automatically converts the byte size to the best-fitting unit, rounding for simplicity and ease of understanding.*
