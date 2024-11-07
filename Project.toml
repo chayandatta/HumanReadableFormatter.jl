@@ -1,6 +1,6 @@
-name = "Readable"
+name = "Layman"
 uuid = "7e4ca075-4d34-493d-967e-c90e13cf6bf4"
-authors = ["Chayan Datta <chayan.datta@juliahub.com>"]
+authors = ["Chayan Datta <chayan.datta1996@gmail.com>"]
 version = "0.1.0"
 
 [deps]

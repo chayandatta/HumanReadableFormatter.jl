@@ -1,4 +1,4 @@
-module Readable
+module Layman
 export datasize
 
 """

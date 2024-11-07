@@ -1,4 +1,4 @@
-using Readable
+using Layman
 using Test
 
 @testset "datasize function" begin
